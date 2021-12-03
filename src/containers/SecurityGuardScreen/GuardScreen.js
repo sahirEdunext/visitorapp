@@ -120,7 +120,7 @@ const GuardScreen = (props) => {
 
               <div className="d-flex mt-4 pt-4 align-items-center flex-column mobBotMargin">
                 <div className=" p-1 mt-3 Guard-Btn1" onClick={() => setShowScanner(true)}>
-                  <i className="qr-icon ml-3"></i><span className="Guard-btn-text">Scan QR Code</span>
+                  <i className="qr-icon ml-3"></i><span className="Guard-btn-text">Scan QR Code.</span>
                 </div>
 
                 <div className="cus_wid mt-3">
