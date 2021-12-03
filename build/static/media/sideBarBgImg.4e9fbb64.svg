@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="530" height="1080" viewBox="0 0 530 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.024" y1="0.031" x2="0.695" y2="0.755" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5757ef"/>
+      <stop offset="0.038" stop-color="#5757ef"/>
+      <stop offset="1" stop-color="#9029df"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_364" data-name="Rectangle 364" width="530" height="1080" stroke="#707070" stroke-width="1" fill="url(#linear-gradient)"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="0.461" y1="1.423" x2="0.467" y2="-0.131" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#362efb"/>
+      <stop offset="1" stop-color="#714bdb"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.539" y1="1.423" x2="0.533" y2="-0.131" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-4" x1="0.414" x2="0.595" y2="0.779" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5757ef"/>
+      <stop offset="1" stop-color="#972beb"/>
+    </linearGradient>
+  </defs>
+  <g id="Mask_Group_12" data-name="Mask Group 12" clip-path="url(#clip-path)">
+    <g id="Group_3305" data-name="Group 3305" transform="translate(-110.434 53.438)">
+      <circle id="Ellipse_127" data-name="Ellipse 127" cx="137.11" cy="137.11" r="137.11" transform="matrix(0.809, 0.588, -0.588, 0.809, 161.182, 762.91)" opacity="0.5" fill="url(#linear-gradient-2)"/>
+      <ellipse id="Ellipse_126" data-name="Ellipse 126" cx="47" cy="46.5" rx="47" ry="46.5" transform="translate(515.434 -0.438)" opacity="0.6" fill="url(#linear-gradient-3)"/>
+      <circle id="Ellipse_124" data-name="Ellipse 124" cx="73.828" cy="73.828" r="73.828" transform="translate(444.382 694.094)" opacity="0.5" fill="url(#linear-gradient-4)"/>
+      <circle id="Ellipse_125" data-name="Ellipse 125" cx="29.632" cy="29.632" r="29.632" transform="translate(385.501 814.15)" opacity="0.2" fill="url(#linear-gradient-3)"/>
+    </g>
+  </g>
+</svg>

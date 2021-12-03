@@ -264,6 +264,7 @@ const GuardScreen = (props) => {
                   </div>
                   <div className="modal-body">
                     <QrReader
+                      facingMode={"environment"}
                       delay={300}
                       onError={handleError}
                       onScan={handleScan}
