@@ -1,0 +1,40 @@
+{
+  "name": "EduNext",
+  "short_name": "Edunext",
+  "theme_color": "#5a54ee",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "Logo192_192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "Logo512_512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "shortcuts": [
+    {
+       "name": "Guard Login",
+       "description": "Login to guard Screen",
+       "url": "/guardlogin",
+       "icons": [
+        {
+          "src": "Logo192_192.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        },
+        {
+          "src": "Logo512_512.png",
+          "type": "image/png",
+          "sizes": "512x512"
+        }
+      ]
+    }
+ ]
+}

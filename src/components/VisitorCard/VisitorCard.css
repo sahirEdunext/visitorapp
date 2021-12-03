@@ -1,0 +1,150 @@
+.Person-name{
+    color: #1f1f1f;
+    padding: 5px 8px 2px 0px;
+    font-size: 14px;
+    text-align: left;
+    font-weight: bold;
+}
+.CheckIn-btn{
+    background: #5239B2 !important;
+    border-radius: 20px !important;
+    font-weight: 600 !important;
+    font-size: 11px !important;
+    padding: 5px 0 !important;
+    text-transform: none !important;
+    float: right;
+    width: 90px;
+    margin: 10px 15px !important;
+    background: #4F3BEC;
+    box-shadow: 0px 3px 10px #00000014;
+    border: 1px solid #0E36A41A;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    font-family: 'Hind';
+}
+.Card-img{
+    width: 80px;
+    height: 82px;
+    border-radius: 4px;
+    margin-top: 10px;
+    object-fit: cover;
+}
+.CheckOut-btn{
+    border: 1px solid #5239B2 !important;
+    background: white !important;
+    color: #533CEB !important;
+    border-radius: 20px !important;
+    font-weight: 600 !important;
+    font-size: 11px !important;
+    padding: 4px 0px !important;
+    text-transform: none !important;
+    float: right;
+    width: 89px;
+    margin: 10px 15px !important;
+}
+
+.description{
+    font-size: 11px;
+    color: darkslategrey;
+    text-align: left;
+}
+.description table{
+    margin-left: 0;
+}
+.read-more{
+    color:#007bff;
+    cursor: pointer;
+}
+.date{
+    display: inline-block;
+}
+td{
+    color: rgb(113, 114, 116);
+}
+.button-con{
+    margin-top: -3px;
+}
+.card-footer{
+    margin-top: 0;
+    background-color: white;
+    border-top: 1px solid rgb(236 236 236);
+    width: 95% !important;
+    margin: 0 10px !important;
+}
+.card{
+    margin: 0 55px;
+    width: 80%;
+    border: none;
+    border-radius: 7px 7px 4px 4px;
+    overflow: hidden;
+}
+
+.visitor-avatar{
+    max-width: 20%;
+}
+.V-key{
+    display: inline-block;
+    font-size: 11px;
+    color: #707070;
+    margin-bottom: 2px;
+  }
+  .V-value{
+    color:#222222;
+    display: inline-block;
+    font-size: 12px;
+    margin-bottom: 2px;
+  }
+@media(max-width:720px){
+    .w-col-6{
+        width: 100%;
+    }
+    .visitor-avatar{
+        margin:0 5px;
+    }
+    .V-key{
+        font-size: 11px;
+        width: 95px;
+    }
+    .V-value{
+        font-size: 12px;
+    }
+}
+@media(min-width:720px){
+    .w-col-6{
+        width: 100%;
+    }
+    .visitor-avatar{
+        margin:0 10px;
+    }
+    .V-key{
+        font-size: 11px;
+        width: 95px;
+    }
+    .V-value{
+        font-size: 12px;
+    }
+}
+  @media(min-width:960px){
+    .w-col-6{
+        display: inline-block;
+        width: 49%;
+        vertical-align: top;
+    }
+    .V-key{
+        width: 92px;
+    }
+    .visitor-avatar{
+        margin:0;
+    }
+
+  }
+  @media(min-width:1140px){
+    .w-col-6{
+        display: inline-block;
+        width: 50%;
+        vertical-align: top;
+    }
+    .V-key{
+        width: 92px;
+    }
+  }

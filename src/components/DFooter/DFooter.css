@@ -1,0 +1,55 @@
+.dfooter {
+  position: fixed;
+  bottom: 0px;
+  /* background-color: #503bec; */
+  color: white;
+  width: 54%;
+  padding: 10px 15px;
+}
+.dfooter p {
+  font-size: 14px;
+}
+.para-powered {
+  font-size: 12px;
+  font-weight: 300 !important;
+  position: absolute;
+  right: 16%;
+  bottom: 26%;
+}
+
+.powered-img-span {
+  position: absolute;
+  right: 1px;
+  bottom: 22%;
+}
+
+.img-powered {
+  width: 110px;
+}
+
+@media (max-width: 576px) {
+  .mobile-hide {
+    display: none;
+  }
+}
+@media (min-width: 720px) {
+  .dfooter .float-right {
+    float: left !important;
+  }
+  .dfooter {
+    width: 40%;
+  }
+}
+@media (min-width: 960px) {
+  .dfooter .float-right {
+    float: right !important;
+  }
+  .dfooter {
+    width: 45%;
+  }
+}
+@media (min-width: 1140px) {
+  .dfooter {
+    width: 54%;
+  }
+}

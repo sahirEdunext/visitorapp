@@ -1,0 +1,273 @@
+.Edu-container{
+    padding: 0 !important;
+    background-color: #6A47E9;
+    background-image: linear-gradient(to right,#5756EE,#8433E2);
+  }
+  body{
+    background-color: #6A47E9;
+    background-image: linear-gradient(to right,#5756EE,#8433E2);
+    font-family: 'Poppins', sans-serif !important;  
+    /* font-family: sans-serif !important;sz */
+  }
+
+  .lrBar.lr-30::before {
+    left: -30%!important;
+  }
+
+  .lrBar.lr-30::after {
+    right: -30%!important;
+  }
+  .Edu-container .row{
+    margin: 0 !important;
+  }
+  .Edu-container .col-sm-6{
+  }
+  .left-col{
+    padding: 0 !important;
+  }
+  .right-col{
+    padding: 0 !important;
+  }
+  @media(min-width:720px){
+    .left-col{
+      flex: 0 0 40% !important;
+      max-width: 40% !important;
+    }
+    .right-col{
+      flex: 0 0 60% !important;
+      max-width: 60% !important;
+    }
+    .left-col .Welcome-text-big{
+      font-size: 40px;
+    }
+    .left-col .Box-left {
+      background-size: 110%,260px;
+    }
+  }
+  @media(min-width:960px){
+    .left-col{
+      flex: 0 0 45% !important;
+      max-width: 45% !important;
+    }
+    .right-col{
+      flex: 0 0 55% !important;
+      max-width: 55% !important;
+    }
+    .left-col .Box-left {
+      background-size: 110%,320px;
+    }
+  }
+  @media(min-width:1140px){
+    .left-col{
+      flex: 0 0 55% !important;
+      max-width: 55% !important;
+    }
+    .right-col{
+      flex: 0 0 45% !important;
+      max-width: 45% !important;
+    }
+    .left-col .Box-left {
+      background-size: 110%,400px;
+    }
+  }
+  .Welcome-text{
+    text-align: left;
+    padding: 85px 0 0 15%;
+    color: white;
+  }
+  .Welcome-text-big{
+    font-size: 59px !important;
+    margin: 0;
+    margin-top: -20px;
+  }
+  .Welcome-text-small{
+    font-size: 35px;
+    margin: 0;
+  }
+  .Box-left{
+    vertical-align: top;
+    background-image: url('../../icons/BackgroundPattern.png'),url('../../icons/VectorGraphic.png');
+    background-size: 110%,360px;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: 50px 20px,40% 75%;
+  }
+  .Box-right{
+    text-align: center;
+    background-color: white;
+    min-height: 100vh;
+    border-radius: 50px 0 0 50px;
+    background-image: url('../../icons/BackgroundPatternonWhite.png');
+    background-size:cover;
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+  .Logo-text{
+    font-size: 20px;
+    color: #6A47E9;
+    margin-bottom: 0;
+    margin-top: 20px;
+    font-weight: 700;
+    font-family: 'Circular-Loom';
+  }
+  .Lg-underline{
+    width: 100px;
+    border: 1px solid #6A47E9;
+    margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: 45px;
+  }
+  .Login-form{
+    padding: 15% 15%;
+    padding-bottom: 0;
+  }
+  .sk_wid_70{
+    width: 70px!important;
+  }
+  .btnW-160px.verify-Btn-primary{
+    width: 160px !important;
+  }
+
+  .mlgn .Input-field .Input-text{
+    background: #fff !important;
+    border-radius: 4px!important;
+    padding: 5px 10px!important;
+    transition: .3s all ease;
+  }
+
+  .mlgn .Input-field .Input-text:focus{
+    background: #F8F8F8 !important;
+    border-color: #6c45e8!important;
+  }
+  .Login-fields{
+    text-align: left;
+  }
+  .Field-group label{
+    color: #1100B4;
+    margin-bottom: 1px;
+    font-weight: 600;
+    font-size: 13px;
+  }
+  .Input-text{
+    width: 100%;
+    background: #f1f1f161;
+    height: 35px;
+    border: 1px solid #80808047;
+    border-radius: 4px;
+    font-size: 13px;
+    color: #525252;
+    outline: none;
+    /* padding-left: 15px; */
+  }
+  .Button-container{
+    margin: 40px 0;
+  }
+  .Btn-primary{
+    width: 180px !important;
+    background: #533CEB !important;
+    border: none !important;
+    border-radius: 20px !important;
+    padding: 8px !important;
+    color: white !important;
+    font-weight: 600 !important;
+    text-transform: none !important;
+    box-shadow: 0px 0px 6px 0px #533ceb;
+  }
+  .Lg-username{
+    margin: 25px 0;
+  }
+  .Lg-mobile_number{
+    margin: 10px 0;
+  }
+  @media (min-width:1380px){
+
+    .Welcome-text-big{
+      font-size: 75px !important;
+    }
+    .Welcome-text-small{
+      font-size: 38px;
+    }
+    .Box-left {
+     background-size: 110%,470px;
+    }
+    .Login-form{
+      padding: 15% 17%;
+    }
+    .Logo-text{
+      font-size: 23px;
+    }
+    .Lg-Form{
+      padding-top:20%;
+    }
+  }
+  @media (max-width:720px){
+    .mobile-hide{
+      display: none;
+    }
+    .left-col{
+      flex: 0 0 100% !important;
+      max-width: 100% !important;
+    }
+    .right-col{
+      flex: 0 0 100% !important;
+      max-width: 100% !important;
+    }
+    .Edu-container{
+      background-image: url('../../icons/mobile/BG.png') !important;
+      background-size: contain;
+    }
+    .login-page{
+      background-image: url('../../icons/mobile/BGM.png') !important;
+    }
+    .login-page .Box-left{
+      height: 20vh !important;
+    }
+    .login-page .Box-right{
+      min-height: 80vh !important;
+    }
+    .login-page .Welcome-text {
+        padding: 42px 0 0 46px;
+    }
+    .Welcome-text{
+      padding: 10px 0 0 70px;
+    }
+    .Welcome-text-big{
+      font-size: 30px !important;
+      margin-top: 0px;
+    }
+    .Welcome-text-small{
+      font-size: 25px !important;
+    }
+    .Box-right{
+      border-radius: 50px 50px 0 0 !important;
+      background-size: cover;
+      min-height: 92vh !important;
+    }
+
+    .Box-left{
+      /* min-height: 25vh !important; */
+      height: 15vh !important;
+      background:none !important;
+    }
+    .Button-container{
+      margin: 60px 0 !important;
+    }
+    .Login-logo{
+      /* display: none; */
+    }
+    .Login-form{
+      padding: 4% 4% !important;
+    }
+    .display-hide{
+      display: block;
+    }
+    .Input-text{
+      font-size: 17px;
+      height: 35px;
+      border-radius: 20px;
+    }
+    .Field-group label{
+      margin-left: 10px;
+    }
+
+  }

@@ -1,0 +1,17 @@
+.Back-top-icons{
+    position: absolute;
+    left: 20px;
+    top: 25px;
+    cursor: pointer;
+  }
+  .Back-top-icons i {
+    display: inline-block;
+    padding: 10px;
+    margin: 0px 8px;
+}
+  .back-arrow{
+    background-image: url('../../icons/left-arrow.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+  }

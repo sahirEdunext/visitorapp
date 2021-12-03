@@ -1,0 +1,188 @@
+.code {
+  --b: 4px;
+  --c: rgb(0, 0, 0);
+  --w: 30px;
+  border: var(--b) solid transparent;
+  background: linear-gradient(var(--c), var(--c)) top left,
+    linear-gradient(var(--c), var(--c)) top left,
+    linear-gradient(var(--c), var(--c)) bottom left,
+    linear-gradient(var(--c), var(--c)) bottom left,
+    linear-gradient(var(--c), var(--c)) top right,
+    linear-gradient(var(--c), var(--c)) top right,
+    linear-gradient(var(--c), var(--c)) bottom right,
+    linear-gradient(var(--c), var(--c)) bottom right;
+  background-size: var(--b) var(--w), var(--w) var(--b);
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  width: 135px;
+  padding: 5px;
+  margin: 20px auto;
+  margin-top: 0;
+}
+
+.qrCardContBox > div.code {
+  margin: 1rem auto !important;
+  padding: 0 !important;
+  background: none !important;
+}
+
+.qrCardContBox {
+  margin: 1rem auto !important;
+  padding: 0 !important;
+}
+
+.cardBoxQr p,
+td {
+  font-family: "Hind";
+  letter-spacing: 0px;
+  color: #3c4043 !important;
+}
+.cardBoxQr td {
+  padding: 5px !important;
+}
+
+.tcapitalize::first-line {
+  text-transform: capitalize;
+}
+.tcapitalize {
+  /* text-transform: lowercase; */
+}
+
+.Btn-qr-download.downloadCard {
+  margin-top: 1rem !important;
+}
+
+.qr-box-border.cardBoxQr .thanksMessage {
+  color: #0f2641 !important;
+  font-weight: 500;
+  font-size: 18px;
+}
+.qr-box-border.cardBoxQr .cardTdL {
+  color: #0f264180 !important;
+}
+.apntPara {
+  /* font: normal normal 300 24px/31px Sofia Pro; */
+  font-family: "Sofia Pro";
+  letter-spacing: 0px;
+  color: #3c4043 !important;
+  font-weight: 300;
+  /* font-size: 14px!important;  */
+}
+.thanksMesageApt {
+  font-family: "Hind";
+}
+.appIdVisitor {
+  color: #1100b4 !important;
+  font-weight: 500 !important;
+  font-family: "Hind";
+}
+.wid80lg {
+  max-width: 200px;
+}
+
+.qr-box-border.cardBoxQr {
+  background: #ffffff;
+  box-shadow: 0px 3px 12px #0000003d;
+  border: 2px solid #1100b4;
+  border-radius: 6px;
+  padding: 1.5rem;
+  /* padding-bottom: 0px!important; */
+  min-height: 26rem;
+  min-width: 19rem;
+}
+
+.thankParImage {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.Qr-container {
+  /* padding-top: 10%; */
+}
+.Btn-qr-download {
+  width: 138px !important;
+  background: #533ceb !important;
+  border: none !important;
+  border-radius: 5px !important;
+  padding: 3px !important;
+  color: white !important;
+  box-shadow: 0px 0px 6px 0px #533ceb;
+}
+.Qr-code {
+  margin: -30px 0 45px 0;
+  padding-top: 30px;
+}
+.Qr-code p {
+  font-weight: bold;
+  margin-top: 15px;
+  font-size: 20px;
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+}
+.Qr-data-table {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  width: max-content;
+  text-align: left;
+}
+.Qr-data-table td {
+  padding: 5px 0px;
+}
+.Qr-data-table .Q-key {
+  color: black;
+  width: 100px;
+}
+.Qr-data-table .Q-value {
+  color: black;
+  font-weight: bold;
+}
+.Last-text {
+  margin: 0;
+  color: rgb(0 0 0);
+  font-weight: 450;
+}
+.Bigtext {
+  font-size: 20px;
+}
+.Smalltext {
+  font-size: 13px;
+}
+.Qr-logo {
+  padding: 60px 0 15px 0;
+}
+.Th-Logo-text {
+  font-size: 32px;
+  font-weight: 600;
+  padding: 20px 0;
+  color: #04048c;
+}
+@media (max-width: 576px) {
+  .thankyou-text {
+    font-size: 35px !important;
+  }
+  .Thank-container .Welcome-text {
+    padding: 8px 0px 60px 18% !important;
+  }
+  .Th-Logo-text {
+    padding: 0px;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0;
+  }
+  .Qr-data-table td {
+    font-size: 12px;
+  }
+  .Qr-code {
+    margin: 0;
+    padding: 20px 20%;
+  }
+  .Btn-qr-download {
+    margin-top: 30px !important;
+  }
+}
+@media (min-width: 1380px) {
+  .Qr-container {
+    /* padding-top: 15%; */
+  }
+}

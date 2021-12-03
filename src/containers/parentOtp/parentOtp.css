@@ -1,0 +1,318 @@
+.text-medium {
+  font-size: 32px;
+  margin-top: 5px;
+}
+.otp-text-small {
+  font-size: 24px;
+  margin: 0;
+}
+.otp-resend {
+  display: inline-block;
+  cursor: pointer;
+}
+.Logo-text-otp {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 15px 0;
+  padding: 0 40px;
+  color: #707070;
+}
+.otpMobileNumber {
+  color: #573eea;
+}
+.otp-Btn-primary {
+  width: 200px !important;
+  background: #ffffff00 !important;
+  border: 0px solid #533ceb00 !important;
+  border-radius: 20px !important;
+  padding: 6px !important;
+  color: #533ceb !important;
+  font-weight: 500 !important;
+  text-transform: none !important;
+  box-shadow: 0px 0px 2px 0px #b4c1ff00;
+  margin: 0 10px !important;
+  margin-bottom: 10px !important;
+  text-transform: none !important;
+  font-family: "Hind" !important;
+}
+.otp-verify-msg {
+  padding: 10px 40px;
+  margin: 0 auto;
+  color: green;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  background-color: #ffb0b000;
+  border-radius: 4px;
+  width: fit-content;
+  letter-spacing: 0px;
+  font-family: "Hind";
+}
+.verify-Btn-primary {
+  width: 200px !important;
+  background: #533ceb !important;
+  border: none !important;
+  border-radius: 20px !important;
+  padding: 6px !important;
+  color: #e0e0e0 !important;
+  font-weight: 500 !important;
+  box-shadow: 0px 0px 2px 0px #533ceb;
+  margin: 0 10px !important;
+  text-transform: none !important;
+  margin-bottom: 10px !important;
+  font-family: "Hind" !important;
+}
+
+.Login-fields {
+  text-align: left;
+}
+
+.Input-text:focus {
+  background: #fff;
+  border-color: #533ceb;
+}
+.Input-text::placeholder {
+  color: #010617;
+}
+.Input-text {
+  width: 100%;
+  background: #f8f8f8;
+  height: 35px;
+  border: 1px solid #80808047;
+  border-radius: 4px;
+  font-size: 13px;
+  color: #525252;
+  outline: none;
+  /* padding-left: 15px; */
+  transition: 0.3s all ease;
+}
+.Login-form {
+  padding: 15% 15%;
+  padding-bottom: 0;
+}
+.Field-group label {
+  color: #4921c5;
+  font-family: "Hind";
+}
+
+.MuiButton-text.Btn-primary {
+  font-family: "Hind";
+}
+.Otp-field {
+  width: 35px;
+  height: 50px;
+  font-size: 30px;
+  padding: 5px;
+  color: #696666;
+  text-align: center;
+  outline: none;
+  border: 0;
+  background: none;
+  border-bottom: 2px solid #7d7b7b;
+  margin: 5px;
+}
+/* .Button-container{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+  } */
+.Lg-username {
+  margin: 25px 0;
+}
+.Lg-password {
+  margin: 10px 0;
+}
+.Label {
+  float: left;
+}
+.purpose-text {
+  text-align: center;
+  margin: 0;
+  color: #6848e9d1;
+  font-weight: 500;
+}
+.purpose-hr {
+  margin: 3px auto;
+  color: #6848e994;
+  width: 145px;
+  border-bottom: 2px solid;
+}
+.purpose-icons {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  /* margin: 0 -15px; */
+}
+
+.Adm-icon:hover {
+  box-shadow: 0px 8px 18px 2px rgb(139 160 255 / 50%);
+}
+.Adm-icon {
+  background-image: url("../../icons/Admission.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  /* width: 140px;
+    height: 140px; */
+}
+.circle-icons-size {
+  width: 90px;
+  height: 90px;
+  transition: 0.3s all ease;
+  border-radius: 50%;
+}
+.general-icon:hover {
+  box-shadow: 0px 8px 18px 2px rgb(42 219 192 / 50%);
+}
+.general-icon {
+  background-image: url("../../icons/GeneralIcon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  /* width: 140px;
+    height: 140px; */
+}
+
+.circle-left-right:before {
+  content: "";
+  width: 1px;
+  height: 45px;
+  background: #70707061;
+  position: absolute;
+  left: -16px;
+  top: 21px;
+}
+
+.your-purpose {
+  /* font: normal normal medium 24px/35px Hind; */
+  letter-spacing: 0px;
+  color: #3c4043;
+  font-weight: 500;
+  font-family: "Hind";
+}
+
+.hr-b-small {
+  width: 30px;
+  margin: 0.3rem auto 1rem;
+  border-top: 1.5px solid #573eea;
+}
+
+.otp-varified-txt-other {
+  /* font: normal normal medium 32px/48px Hind; */
+  font-family: "Hind";
+  letter-spacing: 0px;
+  color: #573eea;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.circle-left-right:after {
+  content: "";
+  width: 1px;
+  height: 45px;
+  background: #70707061;
+  position: absolute;
+  right: -16px;
+  top: 21px;
+}
+
+.vendor-icon:hover {
+  box-shadow: 0px 8px 18px 2px rgb(218 147 219 / 50%);
+}
+.vendor-icon {
+  background-image: url("../../icons/VendorIcon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  /* width: 140px;
+    height: 140px; */
+}
+.error-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 5px 20px;
+  font-size: 12px;
+  color: #ff2d2d;
+  background-color: #ffb0b000;
+  border-radius: 4px;
+  width: -moz-fit-content;
+  width: fit-content;
+  letter-spacing: 0px;
+  font-family: "Hind";
+}
+.Visit-purpose {
+  /* display: flex;
+    flex-wrap: wrap; */
+}
+.error-icon {
+  background-image: url("../../icons/exclamation.png");
+  width: 10px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 10px;
+  vertical-align: top;
+  margin-right: 8px;
+}
+.error-text {
+  display: inline-block;
+}
+.otp-login-form {
+  padding-top: 15%;
+}
+@media (max-width: 720px) {
+  .otp-welcome-text {
+    padding: 25px 0px 6px 70px !important;
+  }
+  .text-medium {
+    font-size: 20px !important;
+    margin-top: 0px;
+  }
+  .otp-text-small {
+    font-size: 15px !important;
+  }
+  .Logo-text-otp {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0;
+  }
+  .otp-login-form {
+    padding: 4% 6% !important;
+  }
+  .verify-Btn-primary {
+    width: 185px !important;
+  }
+  .otp-Btn-primary {
+    width: 185px !important;
+    padding: 4px !important;
+  }
+
+  .circle-icons-size {
+    width: 100px;
+    height: 100px;
+  }
+  /* .Adm-icon{
+      width: 120px;
+      height: 120px;
+    }
+    .general-icon{
+      width: 120px;
+      height: 120px;
+    }
+    .vendor-icon{
+      width: 120px;
+      height: 120px;
+    } */
+    .circle-left-right:before,.circle-left-right:after{
+      top: 15px;
+      display: none !important;
+    }
+    
+}

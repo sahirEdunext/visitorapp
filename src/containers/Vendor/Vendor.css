@@ -1,0 +1,25 @@
+.Vendor-logo img{
+  width: 50px;
+}
+.Input-textarea{
+  width: 100%;
+  background: #f1f1f161;
+  border: 1px solid #80808047;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #525252;
+  outline: none;
+  padding-left: 10px;
+}
+.Vendor-form .Field-group-adm .Input-text {
+  width: 100% !important;
+}
+.Vendor-form{
+  padding:10% 17%;
+  padding-bottom: 5%;
+}
+@media (max-width:576px){
+  .Vendor-logo img{
+    display: none;
+  }
+} 

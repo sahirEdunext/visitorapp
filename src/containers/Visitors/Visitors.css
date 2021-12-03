@@ -1,0 +1,192 @@
+.Visitor-list-form {
+  padding: 7% 1%;
+}
+.Scrollable-div {
+  height: 70vh;
+  overflow: auto;
+}
+.Scrollable-div::-webkit-scrollbar {
+  width: 4px; /* width of the entire scrollbar */
+}
+
+.gVis_b_box.totalVis {
+  border: none !important;
+  background-color: transparent;
+  margin: 1px 20px 1px 8px;
+  padding-bottom: 0;
+}
+
+.crsr-normal {
+  cursor: auto !important;
+}
+
+.gVis_b_box.totalVis .gvis_txt {
+  font-size: 16px;
+}
+
+.Scrollable-div::-webkit-scrollbar-thumb {
+  background-color: lightgrey; /* color of the scroll thumb */
+  border-radius: 80px; /* roundness of the scroll thumb */
+}
+.card {
+  margin: 0px 20px;
+  width: 92%;
+}
+.sort-box .MuiFormControl-root {
+  padding: 0 7px;
+  margin: 0 !important;
+  min-width: 160px !important;
+}
+.sort-box .MuiSelect-root {
+  padding: 4px !important;
+  font-size: 10px !important;
+  background: #ffffff;
+  border: 1px solid #1100b433 !important;
+  color: #707070 !important;
+  font-size: 12px !important;
+  font-family: "Hind" !important;
+  /* padding-right: 22px; */
+}
+
+@media (max-width: 720px) {
+  .sort-box {
+    width: 145px !important;
+    margin: 0 !important;
+  }
+  .search-sort {
+    margin: 20px auto !important;
+  }
+  /* .search-icon {
+    display: none !important;
+  } */
+  .sort-box .MuiFormControl-root {
+    min-width: 140px !important;
+  }
+  .sort-box .MuiSelect-root {
+    border-radius: 17px !important;
+    padding: 4px;
+    font-size: 10px !important;
+    padding-right: 22px;
+  }
+  .visitor-text-medium {
+    font-size: 28px !important;
+  }
+  .Scrollable-div {
+    height: 57vh;
+    overflow: auto;
+  }
+  .Visitor-list-form {
+    padding: 7% 7% !important;
+  }
+  .card {
+    margin: 0px !important;
+    width: 98% !important;
+  }
+  .description {
+    font-size: 10px !important;
+  }
+  .search-sort {
+    padding: 0 !important;
+    width: 100% !important;
+  }
+  .search-box {
+    margin-right: 0 !important;
+  }
+  .search-box-input {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 155px !important;
+    border-radius: 20px !important;
+  }
+  .search-box-input:focus {
+    width: 170px !important;
+  }
+  .icon-sort {
+    left: 17px !important;
+    top: 3px !important;
+  }
+  input.search-box-input::placeholder {
+    width: 115px;
+  }
+}
+
+.visitor-text-medium {
+  font-size: 45px;
+  margin-top: 5px;
+}
+
+.search-icon {
+  background-image: url("../../icons/search-interface-symbol.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 14px;
+  padding: 10px 0;
+  display: block;
+}
+.search-box {
+  width: fit-content;
+  position: relative;
+}
+.search-btn {
+  outline: none;
+  border: none;
+  background: transparent;
+  width: 25px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.search-box-input {
+  width: 250px;
+  outline: none;
+  padding: 5px 15px;
+  transition: width 400ms ease-in-out;
+  background: #ffffff;
+  border: 1px solid #1100b433;
+  border-radius: 5px;
+  letter-spacing: 0px;
+  color: #707070;
+  font-size: 12px;
+  font-family: "Hind";
+}
+.search-box-input:focus {
+  width: 250px;
+  transition: width 400ms ease-in-out;
+}
+.search-sort {
+  margin: 20px 20px;
+  width: 90%;
+}
+.sort-box {
+  width: 175px;
+  display: inline-block;
+  position: relative;
+  margin-right: -22px;
+}
+.sort-box p {
+  margin: 0;
+}
+.sort-select {
+  width: 145px;
+  padding-left: 30px;
+  height: 25px;
+  margin-top: 3px;
+  font-size: 12px;
+  border: 1px solid #0d0048c4;
+  background-color: white;
+}
+.icon-sort {
+  background-image: url("../../icons/Sortby.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 13px 0;
+  position: absolute;
+  width: 20px;
+  left: 20px;
+  top: 1px;
+  display: inline-block;
+  z-index: 5;
+  opacity: 0.4;
+}

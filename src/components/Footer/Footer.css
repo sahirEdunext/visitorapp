@@ -1,0 +1,53 @@
+.display-hide{
+    display: none;
+  }
+  .float-left{
+    float: left;
+  }
+  .float-right{
+    float: right;
+  }
+  .footer{
+    position: fixed;
+    bottom: 0px;
+    background-color: #503bec;
+    color: white;
+    width: 100%;
+    padding: 10px 15px;
+  }
+  .footer p{
+    margin-bottom: 0;
+  }
+  .footer-col{
+    padding: 0 !important;
+    z-index: 9;
+  }
+  .icon-location{
+    background-image: url('../../icons/Location.svg');
+    background-size: contain;
+    width: 20px;
+    padding: 10px 0;
+    display: inline-block;
+    background-repeat: no-repeat;
+    vertical-align: text-bottom;
+    margin-right: 10px;
+    /* cursor: pointer; */
+  }
+  .icon-call{
+    background-image: url('../../icons/CallIcon.svg');
+    background-size: contain;
+    width: 20px;
+    padding: 10px 0;
+    display: inline-block;
+    background-repeat: no-repeat;
+    vertical-align: text-bottom;
+    margin-right: 10px;
+  }
+  @media (max-width:576px){
+    .display-hide{
+        display: block;
+    }
+    .footer-col{
+      font-size: 12px;
+    }
+   }

@@ -1,0 +1,261 @@
+@font-face {
+  font-family: "sofia-regular";
+  src: url("../../utils/Fonts/Sofia-Pro-Regular.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "sofia-regular";
+}
+ul,
+li {
+  list-style: none;
+  text-decoration: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+section.visitor-section {
+  background: #f5f6f9;
+}
+.visitor-section .side-panel {
+  padding: 2em;
+  min-height: 100vh;
+  position: relative;
+  background-image: url('../../icons/sideBarBgImg.svg');
+  background-size: cover;
+}
+.logo-img img {
+  width: 90px;
+  border-radius: 10px;
+}
+.logo-tag-line p {
+  padding: 17px 0;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 400;
+  font-family: 'Hind';
+}
+.leftBoxBgIMG{
+  background: rgb(97 79 236 / 98%);
+  background: linear-gradient(
+180deg, rgba(97,79,236,1) 0%, rgba(144,41,223,1) 100%);
+}
+.icon-box {
+  display: flex;
+  align-items: center;
+  /* justify-content: flex-start; */
+}
+.icon-box i {
+  margin-right: 7px;
+  font-size: 12px;
+  color: #fff;
+  opacity: 0.7;
+}
+img.leftSideDivIcon {
+  display: inline;
+  margin-right: 5px;
+}
+.icon-box h5 {
+  font-size: 16px;
+  color: #fff;
+  font-family: 'Sofia Pro', sans-serif !important;
+  font-weight: 300;
+  opacity: 0.7;
+}
+.main-content p {
+  font-size: 15px;
+  color: #fff;
+  margin-top: 5px;
+  margin-left: 1.5rem;
+  word-break: break-word;
+}
+.main-content p a {
+  font-size: 15px;
+  color: #fff;
+  margin-top: 5px;
+}
+
+.main-content p a:hover {
+  text-decoration: none;
+}
+
+.contact-content {
+  padding: 6px 0;
+}
+
+.social-icons {
+  /* position: absolute; */
+  bottom: 0;
+}
+.social-icons ul li {
+  display: inline-block;
+}
+.social-icons ul li img {
+  width: 20px;
+  margin-right: 8px;
+}
+.social-icons h5 {
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 10px;
+  opacity: 0.7;
+}
+
+.right-panel {
+  padding: 3em;
+  padding-bottom: 0;
+}
+
+.content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  border-radius: 20px;
+  padding: 20px 30px;
+  position: relative;
+}
+.left-part h3,
+.visitor-heading h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #393a57;
+  font-family: 'Hind', sans-serif!important;
+}
+.left-part p,
+.visitor-heading p {
+  font-size: 14px;
+  margin-top: 7px;
+  width: 80%;
+  color: #3C4043;
+  opacity: 0.7;
+}
+.right-part {
+  text-align: right;
+}
+.right-part img {
+  position: absolute;
+  right: 24px;
+  top: -5px;
+  width: 7.9rem;
+}
+.visitor-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 10px 0;
+  padding: 23px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  background: #fff;
+  transition: all 0.4s ease;
+}
+.visitor-content:hover {
+  border: 1px solid #573EEA!important;
+  background: #573EEA05!important;
+}
+
+.visitor-content:hover img.arrowRight{
+  opacity: 1;
+}
+
+img.arrowRight{
+  opacity: 0;
+  transition: all 0.4s ease;
+  position: absolute;
+  top: 40%;
+  right: 30px;
+  width: 25px;
+}
+.img-box img {
+  width: 43px;
+  margin-right: 12px;
+}
+.content-box h4 {
+  font-size: 17px;
+  padding: 2px 0;
+  font-weight: 500;
+  color: #393a57;
+  font-family: 'Hind', sans-serif!important;
+}
+.content-box p {
+  font-size: 14px;
+  color: #3C4043;
+  opacity: 0.7;
+}
+/* .content-box img {
+
+} */
+/* .guards-box {
+  border: 2px solid #fff;
+  background: #fff;
+} */
+.visitor-type {
+  padding: 3em 6px;
+}
+
+.footer_mobile {
+  display: none;
+  background: rgb(97 79 236 / 98%);
+  background: linear-gradient( 
+180deg, rgba(97,79,236,1) 0%, rgba(144,41,223,1) 100%);
+
+}
+
+@media (max-width: 767px) {
+  .content-wrapper {
+    display: block;
+  }
+  .right-panel {
+    padding: 1em;
+}
+
+  .left-part p {
+    width: 100%;
+  }
+  .right-part {
+    text-align: left;
+    margin-top: 25px;
+  }
+  .right-part img {
+    width: 40%;
+    position: static;
+  }
+  .footer_mobile {
+    display: block;
+  }
+
+  .deskTop_view {
+    display: none;
+  }
+  .social-icons {
+    /* position: sticky; */
+    bottom: 0;
+}
+  .logo-box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .logo-img img {
+    width: 60px;
+  }
+  .logo-tag-line {
+    margin-left: 1rem;
+  }
+  .visitor-section .side-panel {
+    padding: 1em;
+  }
+}

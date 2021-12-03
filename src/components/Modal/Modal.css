@@ -1,0 +1,19 @@
+.modal-show {
+  display: block !important;
+}
+.pmb-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  display: none;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  outline: 0;
+}
+.scrllAble {
+  word-break: break-word;
+  max-height: 25rem;
+  overflow: auto;
+}

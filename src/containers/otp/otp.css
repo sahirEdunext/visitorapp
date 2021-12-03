@@ -1,0 +1,204 @@
+.text-medium{
+    font-size: 32px;
+    margin-top: 5px;
+  }
+  .otp-text-small{
+    font-size: 24px;
+    margin: 0;
+  }
+  .otp-resend{
+    display: inline-block;
+    cursor: pointer;
+  }
+  /* .Logo-text-otp{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 35px;
+    padding: 0 40px;
+  } */
+  .otp-Btn-primary{
+    width: 160px !important;
+    background: #ffffff !important;
+    border: 1px solid #533CEB !important;
+    border-radius: 20px !important;
+    padding: 6px !important;
+    color: #533CEB !important;
+    font-weight: 600 !important;
+    text-transform: none !important;
+    box-shadow: 0px 0px 2px 0px #b4c1ff;
+    margin:0 10px !important;
+    margin-bottom: 10px !important;
+    text-transform: none !important;
+  }
+  .otp-verify-msg{
+    /* padding: 10px 40px;
+    background-color: #9cff839e;
+    width: max-content;
+    margin: 0 auto;
+    color: green;
+    border-radius: 7px;
+    margin-bottom: 40px; */
+  }
+  .verify-Btn-primary{
+    width: 160px !important;
+    background: #533CEB !important;
+    border: none !important;
+    border-radius: 20px !important;
+    padding: 6px !important;
+    color: #e0e0e0 !important;
+    font-weight: 600 !important;
+    box-shadow: 0px 0px 2px 0px #533ceb;
+    margin:0 10px !important;
+    text-transform: none !important;
+    margin-bottom: 10px !important;
+  }
+
+  /* .Login-form{
+    padding: 15% 25%;
+  } */
+  .Login-fields{
+    text-align: left;
+  }
+  /* .Field-group label{
+    color:#4921c5
+  } */
+  .Otp-field{
+    width: 35px;
+    height: 50px;
+    font-size: 30px;
+    padding: 5px;
+    color: #696666;
+    text-align: center;
+    outline: none;
+    border: 0;
+    background: none;
+    border-bottom: 2px solid #7d7b7b;
+    margin: 5px;
+  }
+  /* .Button-container{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+  } */
+  .Lg-username{
+    margin: 25px 0;
+  }
+  .Lg-password{
+    margin: 10px 0;
+  }
+  .Label{
+    float: left;
+  }
+  .purpose-text{
+    text-align: center;
+    margin: 0;
+    color: #6848e9d1;
+    font-weight: 500;
+  }
+  .purpose-hr{
+    margin: 3px auto;
+    color: #6848e994;
+    width: 145px;
+    border-bottom: 2px solid;
+  }
+  .purpose-icons{
+    display: inline-block;
+    cursor: pointer; 
+    /* margin: 0 -15px; */
+  }
+  /* .Adm-icon{
+    background-image: url('../../icons/Admission.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    width: 140px;
+    height: 140px;
+  } */
+  /* .general-icon{
+    background-image: url('../../icons/GeneralIcon.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    width: 140px;
+    height: 140px;
+  } */
+  /* .vendor-icon{
+    background-image: url('../../icons/VendorIcon.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    width: 140px;
+    height: 140px;
+  } */
+  /* .error-box{
+    margin: 0 auto;
+    padding: 5px 20px;
+    font-size: 12px;
+    color: #ec1717d4;
+    background-color: #ffb0b070;
+    border-radius: 4px;
+    width: -moz-fit-content;
+    width: fit-content;
+  } */
+  .Visit-purpose {
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+  /* .error-icon{
+    background-image:url('../../icons/exclamation.png');
+    width: 24px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 18px;
+    vertical-align: top;
+    margin-right: 20px;
+  } */
+  .error-text{
+    display: inline-block;
+  }
+  .otp-login-form{
+    padding-top: 25%;
+  }
+  @media (max-width:720px){
+    .otp-welcome-text{
+      padding: 25px 0px 6px 70px !important;
+    }
+    .text-medium{
+      font-size: 20px !important;
+      margin-top: 0px;
+    }
+    .otp-text-small{
+      font-size: 15px !important;
+    }
+    .Logo-text-otp {
+      font-size: 16px;
+      font-weight: 400;
+      padding: 0;
+    }
+    .otp-login-form{
+      padding: 4% 6% !important;
+    }
+    .verify-Btn-primary{
+      width: 135px !important;
+    }
+    .otp-Btn-primary{
+      width: 135px !important;
+      padding: 4px !important;
+    }
+    /* .Adm-icon{
+      width: 120px;
+      height: 120px;
+    }
+    .general-icon{
+      width: 120px;
+      height: 120px;
+    }
+    .vendor-icon{
+      width: 120px;
+      height: 120px;
+    } */
+  }

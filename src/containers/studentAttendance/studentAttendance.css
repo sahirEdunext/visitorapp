@@ -1,0 +1,180 @@
+.corner-borders::before,
+.corner-borders::after {
+  border-color: #1fc44d;
+  border-width: 8px;
+  border-radius: 10px 10px 10px 10px;
+  content: "";
+  display: block;
+  height: 50px;
+  pointer-events: none;
+  position: absolute;
+  width: 50px;
+  z-index: 99;
+}
+.corner-borders--left::before,
+.corner-borders--left::after {
+  left: 160px;
+}
+.corner-borders--left::before {
+  border-left-style: solid;
+  border-top-style: solid;
+  top: 0;
+  top: 150px;
+}
+.corner-borders--left::after {
+  border-bottom-style: solid;
+  border-left-style: solid;
+  bottom: 130px;
+}
+.corner-borders--right::before,
+.corner-borders--right::after {
+  right: 160px;
+}
+.corner-borders--right::before {
+  border-right-style: solid;
+  border-top-style: solid;
+  top: 150px;
+}
+.corner-borders--right::after {
+  border-bottom-style: solid;
+  border-right-style: solid;
+  bottom: 130px;
+}
+
+.student-scan div {
+  box-shadow: none !important;
+  border-radius: 50px 0 0 50px;
+  border-top-width: 170px !important;
+  border-bottom: 150px solid !important;
+  border-color: #3c404399 !important;
+  border-left-width: 180px !important;
+  border-right-width: 180px !important;
+  /* min-width: 38.5rem; */
+}
+.student-scan video {
+  box-shadow: none !important;
+  border-radius: 50px 0 0 50px;
+}
+.student-scan > section {
+  height: 100vh;
+}
+
+.cancel_scan_std {
+  background: #4f3bec !important;
+  border-radius: 32px !important;
+  width: 15.4rem !important;
+  color: #fff !important;
+  font-family: "Hind" !important;
+  font-weight: 500 !important;
+}
+
+.st_scan_div {
+  bottom: 34px !important;
+  position: absolute !important;
+  left: 30% !important;
+  z-index: 99;
+}
+.scan_stQR {
+  color: #fff;
+  margin-bottom: 2rem;
+  font-family: "Hind";
+  font-weight: 500;
+}
+.att-div-std{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 35px;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.attStudentDetails_div {
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  box-shadow: 0px 3px 6px #1c1c1c80;
+  border-radius: 4px;
+  padding: 10px;
+  font-family: "Hind";
+}
+.attImgDiv img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.attDetailsDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.stNameAtt {
+  letter-spacing: 0px;
+  color: #4f3bec;
+  font-weight: 600;
+  /* margin-bottom: -5px; */
+}
+.commATT {
+  color: #1c1c1c;
+  /* margin-top: 3px; */
+  font-size: 14px;
+}
+.stdIdATT {
+  color: #222222;
+  font-weight: 600;
+  /* font-family: "Sofia Pro"; */
+}
+.attTickDiv img {
+  width: 24px;
+  /* padding-left: 4px; */
+}
+.attTitle {
+  color: #22222280;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 640px) {
+  .student-scan div {
+    border: 40px solid #3c404399 !important;
+    border-bottom: 140px solid #3c404399 !important;
+    border-top: 160px solid #3c404399 !important;
+  }
+  .corner-borders--left::before,
+  .corner-borders--left::after {
+    left: 25px;
+  }
+  .corner-borders--left::before {
+    top: 145px;
+  }
+  .corner-borders--right::before {
+    top: 145px;
+  }
+  .corner-borders--right::before,
+  .corner-borders--right::after {
+    right: 25px;
+  }
+  .corner-borders--left::after {
+    bottom: 125px;
+  }
+  .corner-borders--right::after {
+    bottom: 125px;
+  }
+  .st_scan_div {
+    left: 16% !important;
+  }
+  .student-scan video,
+  .student-scan div {
+    border-radius: 50px 50px 0 0;
+  }
+  .student-scan div {
+    /* min-width: 22rem; */
+  }
+  .attStudentDetails_div {
+    left: 11%;
+  }
+}

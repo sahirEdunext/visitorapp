@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_14890" data-name="Group 14890" transform="translate(-800 -1025)">
+    <circle id="Ellipse_422" data-name="Ellipse 422" cx="12" cy="12" r="12" transform="translate(800 1025)" fill="#fff"/>
+    <g id="outline-phone_in_talk-24px" transform="translate(803 1028)">
+      <g id="Bounding_Boxes">
+        <path id="Path_3396" data-name="Path 3396" d="M0,0H18V18H0Z" fill="none"/>
+      </g>
+      <g id="Outline" transform="translate(2.25 2.25)">
+        <g id="Group_357" data-name="Group 357">
+          <path id="Path_3397" data-name="Path 3397" d="M14.25,10.75h1.5A3.751,3.751,0,0,0,12,7V8.5A2.247,2.247,0,0,1,14.25,10.75Z" transform="translate(-5.25 -4)" fill="#573eea"/>
+          <path id="Path_3398" data-name="Path 3398" d="M17.25,9.75h1.5A6.751,6.751,0,0,0,12,3V4.5A5.246,5.246,0,0,1,17.25,9.75Z" transform="translate(-5.25 -3)" fill="#573eea"/>
+          <path id="Path_3399" data-name="Path 3399" d="M15.75,12.375a8.52,8.52,0,0,1-2.677-.427.836.836,0,0,0-.233-.038.768.768,0,0,0-.532.218l-1.65,1.65A11.284,11.284,0,0,1,5.715,8.835l1.65-1.658a.72.72,0,0,0,.188-.75A8.52,8.52,0,0,1,7.125,3.75.752.752,0,0,0,6.375,3H3.75A.752.752,0,0,0,3,3.75,12.749,12.749,0,0,0,15.75,16.5a.752.752,0,0,0,.75-.75V13.125A.752.752,0,0,0,15.75,12.375ZM4.523,4.5H5.648a10.339,10.339,0,0,0,.338,1.935l-.9.907A11.511,11.511,0,0,1,4.523,4.5ZM15,14.977a11.176,11.176,0,0,1-2.85-.57l.9-.9a9.565,9.565,0,0,0,1.95.338Z" transform="translate(-3 -3)" fill="#573eea"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,905 @@
+.Admission-form {
+  padding: 5% 8%;
+  padding-bottom: 10px !important;
+}
+.Login-fields {
+  text-align: left;
+}
+.Admission-logo img {
+  width: 25px;
+}
+.InputDateIcon{
+  position: absolute;
+    left: 90%;
+    top: 15%;
+}
+.p-registerForm .MuiInputBase-input{
+  padding: 5px 10px !important;
+
+}
+.p-registerForm .Input-text{
+  padding-left: 5px !important;
+}
+.class {
+  width: 185px;
+  margin-right: 30px;
+}
+.Birth-date {
+  width: 185px;
+}
+.Field-group-adm {
+  margin-bottom: 0px;
+}
+
+.reg_separator {
+  margin-top: 0.8rem;
+}
+
+.parHeading {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+.parHeading img {
+  width: 20px;
+  height: auto;
+  margin-right: 4px;
+}
+.parHeading p {
+  text-align: left;
+  font-family: "Hind";
+  font-weight: 500;
+  letter-spacing: 0px;
+  color: #573eea;
+}
+
+.selectStudentDiv:hover {
+  border: 1px solid #573eea;
+  box-shadow: 0px 15px 15px #c0dde880;
+}
+
+.modal h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #393a57;
+  font-family: "Hind", sans-serif !important;
+}
+.selectStudentDiv {
+  background: #ffffff;
+  border: 1px solid #573eea80;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 200px;
+}
+.stFixHeight{
+  overflow: auto;
+  max-height: 75vh;
+}
+.brkWord{
+  word-break: break-word;
+  width: 60%;
+}
+.canc_button{
+  background: #ffffff00 !important;
+  border: none !important;
+  border-radius: 20px !important;
+  padding: 6px !important;
+  color: #533ceb !important;
+  font-weight: 500 !important;
+  box-shadow: 0px 0px 2px 0px #533ceb;
+  margin: 0 10px !important;
+  text-transform: none !important;
+  margin-bottom: 10px !important;
+  font-family: "Hind" !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  .stCustScroll {
+    scrollbar-width: auto;
+    scrollbar-color: #c4c4c4 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  .stCustScroll::-webkit-scrollbar {
+    width: 11px;
+  }
+
+  .stCustScroll::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  .stCustScroll::-webkit-scrollbar-thumb {
+    background-color: #c4c4c4;
+    border-radius: 15px;
+    border: 3px solid #ffffff;
+  }
+
+.selectStIconImg {
+  width: 45px;
+  border-radius: 10px;
+  box-shadow: 0px 15px 15px #c0dde834;
+  margin-top: -50px;
+  object-fit: cover;
+  height: 45px;
+}
+.selectStAddNo.colr {
+  color: #3c4043 !important;
+  margin-top: 13px !important;
+}
+
+.dob-pl-col{
+  color: #3C4043;
+}
+
+.selectStudentDiv .selectStName {
+  font-family: "Hind";
+  font-weight: 500;
+  letter-spacing: -0.54px;
+  color: #3c4043;
+  font-size: 16px;
+  text-transform: lowercase;
+  margin: 6px 0;
+}
+h6.selectStName:first-line {
+  text-transform: capitalize;
+}
+
+.c-pointer{
+  cursor: pointer;
+}
+.selectStudentDiv .selectStAddNo {
+  letter-spacing: -0.39px;
+  color: #0f26418a;
+  font-size: 13px;
+  margin: 6px 0;
+  letter-spacing: -0.42px;
+  line-height: 24px;
+}
+
+.modal-body h1 {
+  font-weight: 900;
+  font-size: 2.3em;
+  text-transform: uppercase;
+}
+.modal-body a.pre-order-btn {
+  color: #000;
+  background-color: gold;
+  border-radius: 1em;
+  padding: 1em;
+  display: block;
+  margin: 2em auto;
+  width: 50%;
+  font-size: 1.25em;
+  font-weight: 6600;
+}
+.modal-body a.pre-order-btn:hover {
+  background-color: #000;
+  text-decoration: none;
+  color: gold;
+}
+
+.sk_grid {
+  list-style: none;
+  grid-template-columns: 1fr 3fr 1fr;
+  padding: 0.5rem 0.5rem;
+  border-radius: 6px !important;
+  transition: all 0.3s ease;
+  margin: 0.5rem 0.7rem;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  border: 1px solid #7a86a533;
+}
+
+.pTimeLeft.par_reg_input{
+  padding-left: 22px!important;
+}
+
+.timeIconsForSelector{
+  position: absolute;
+  left: 2.5%;
+  top: 15%;
+}
+
+.history-reg .modal-dialog {
+  width: 31rem;
+  position: relative;
+  /* left: 23rem; */
+}
+
+.lrBar.glogin::before{
+  left: -40%!important;
+}
+
+.lrBar.glogin::after{
+  right: -40%!important;
+}
+
+.history-reg .modal-header div.modal-title {
+  font-size: 18px;
+}
+
+.history-reg .modal-header .close {
+  padding: 1.5rem 1rem 0;
+}
+
+.history-reg .modal-body {
+  padding-top: 0px;
+  font-size: 14px;
+}
+
+.history-reg .modal-header {
+  background: #4f3bec14;
+  padding: 0.5rem 1rem;
+}
+
+.overlay.hist {
+  position: fixed;
+  top: 0;
+  display: grid;
+  place-content: center;
+  /* placeitems: center; */
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: visible;
+  opacity: 1;
+  z-index: 9;
+}
+.modal.fade.show.shownsk {
+  position: absolute;
+}
+.hpopHide {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+.popup.history-reg {
+  margin: auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 100%;
+  position: relative;
+  transition: all 0.4s ease-in-out;
+}
+
+.popup.history-reg h2 {
+  margin-top: 0;
+}
+.popup.history-reg .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup.history-reg .close:hover {
+  color: #333;
+}
+.popup.history-reg .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px) {
+  .box {
+    width: 70%;
+  }
+  .popup.history-reg {
+    width: 70%;
+  }
+}
+
+.grid-b-none {
+  border: none !important;
+}
+
+.shownsk .modal-content {
+  background: transparent !important;
+}
+.shownsk {
+  display: grid;
+  place-content: center;
+  justify-content: center;
+  background-image: url("../../icons/BackgroundPatternonWhite.png");
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  background: #fff;
+  border-radius: 50px 0 0 50px;
+  z-index: 2;
+}
+
+.h_4rem {
+  height: 4rem !important;
+}
+
+.Input-field select {
+  color: #3C4043;
+}
+
+.reg_form_heading, .gender-label {
+  color: #707070 !important;
+  font-size: 12px !important;
+  font-weight: normal !important;
+  margin: 0 !important;
+  font-family: 'Hind';
+  text-align: left !important;
+}
+
+.par_reg_input::placeholder {
+  color: #3C4043;
+  font-weight: 300;
+  /* font-size: 12px !important; */
+}
+
+textarea.par_reg_input {
+  height: auto;
+  font-size: 12px;
+}
+.par_reg_input, .Input-text {
+  border: 1px solid #70707080 !important;
+  background-color: #fff !important;
+}
+
+.reg_form_subHead {
+  font-size: 14px !important;
+  color: #3c4043 !important;
+}
+.Field-group-adm label {
+  font-size: 10px;
+}
+.Field-group-adm .Input-text {
+  font-size: 12px;
+  height: 28px;
+  color: #525252;
+  font-family: "Hind";
+}
+.Inline-block {
+  display: inline-block;
+  margin: 0 10px;
+}
+.elm-class {
+  width: 50%;
+}
+.Adm-Btn-primary {
+  width: 160px;
+  padding: 4px !important;
+}
+.Adm-btn-container {
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+.hidden {
+  display: none;
+}
+input[type="radio"] {
+  width: 16px;
+  height: 16px;
+}
+.id_card_icon {
+  width: 11px;
+  margin-top: -2px;
+  margin-right: 4px;
+}
+.photo_icon {
+  width: 15px;
+  margin-right: 4px;
+  margin-top: -2px;
+}
+
+.canc-btn-reg {
+  color: #1100b4 !important;
+  font-weight: 600 !important;
+  border-radius: 30px !important;
+}
+
+/* .date_reg_picker .MuiInputBase-input.MuiInput-input{
+    padding: 6px 11px!important;
+    border: 2px solid #4F3BEC80;
+  }
+
+  select.date.date-input{
+    padding: 6px 11px!important;
+    border: 2px solid #4F3BEC80;
+  } */
+
+.calendar_reg_div {
+  position: absolute;
+  top: 2px;
+  right: 1px;
+}
+input#dob::placeholder {
+  color: #3C4043;
+  font-size: 12px!important;
+  font-family: "Hind";
+  opacity: 1;
+}
+
+.date-input {
+  width: 100% !important;
+}
+.dob-input-div .MuiFormControl-root{
+  width: 100% !important;
+
+}
+
+.time-drp-selector{
+  background-image: url(../../icons/timeAppointment.svg)!important;
+  background-repeat: no-repeat!important;
+  background-position: 3% 50%!important;
+  background-size: 18px!important;
+  height: 29px !important;
+  padding-left: 25px !important;
+
+}
+
+.dob-input-div .MuiInputBase-input {
+  color: #3C4043;
+  padding: 4px 10px !important;
+  height: 18px;
+  font-size: 12px !important;
+}
+
+.Input-text.genBgIcon{
+  background-image: url(../../icons/genderIcon.svg);
+  background-repeat: no-repeat;
+  padding-left: 25px !important;
+  background-position: 4% 60%;
+  background-size: 18px;
+}
+
+.Btn-primary.sm-btn {
+  width: 131px !important;
+  font-weight: 600 !important;
+}
+.Upload-id {
+  border: 1.5px dashed #1100b4;
+  border-radius: 4px;
+  padding: 6px 15px;
+  cursor: pointer;
+  margin-top: 10px;
+  background-color: #c7c0f34d;
+  width: 100%;
+  color: #1100b4;
+  margin-bottom: 1px;
+  font-weight: 600;
+  font-size: 10px;
+}
+
+.Card-icon {
+  padding: 0 6%;
+  position: relative;
+  margin-top: 5px;
+}
+.Photo-icon {
+  padding: 0 6%;
+  position: relative;
+  margin-top: 5px;
+}
+.doc-text {
+  font-size: 9px;
+  width: 135px;
+  display: block;
+  overflow: hidden;
+}
+.imgUploadedTxt{
+  font-size: 9px;
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  z-index: 9;
+  bottom: 7px;
+  border-radius: 0px 0px 6px 6px;
+  color: white;
+  left: 12px;
+}
+.Upload_area {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 5px;
+}
+/* toggle in label designing */
+.toggle {
+  position: relative;
+  display: inline-block;
+  width: 55px;
+  height: 26px;
+  background-color: #969292;
+  border-radius: 30px;
+  border: 2px solid #9b8fef;
+}
+.react-datepicker__month-select {
+  border: 1px solid #e4e4e4;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  outline: none;
+}
+.react-datepicker__year-select {
+  border: 1px solid #e4e4e4;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  outline: none;
+}
+/* After slide changes */
+.toggle:after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 23px;
+  border-radius: 50%;
+  background-color: white;
+  top: -1px;
+  left: 0px;
+  transition: all 0.5s;
+}
+
+/* Toggle text */
+p.yes-no-text {
+  font-size: 12px;
+  color: white;
+  padding: 2px 3px;
+}
+.text-error {
+  border: 1px solid #ff292991 !important;
+}
+.dob-error input {
+  border: 1px solid #ff292991 !important;
+}
+/* Checkbox cheked effect */
+.Admission-checkbox:checked + .toggle::after {
+  left: 26px;
+}
+
+/* Admission-Checkbox cheked toggle label bg color */
+.Admission-checkbox:checked + .toggle {
+  background-color: #6a47e9;
+}
+
+/* Admission-Checkbox vanished */
+.Admission-checkbox {
+  display: none;
+}
+.appointment-text {
+  color: #1100b4;
+  margin-bottom: 1px;
+  font-weight: 500;
+  font-size: 13px;
+  /* margin: 0px 22px; */
+  display: inline-block;
+  margin-right: 15px;
+}
+.appointment-div {
+  margin: 10px auto;
+  text-align: left;
+}
+.male-icon {
+  background-image: url("../../icons/male-gender.png");
+  display: inline-block;
+  width: 20px;
+  padding: 10px;
+  vertical-align: -webkit-baseline-middle;
+  margin-right: 5px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.App-date-time-block {
+  margin-top: -20px;
+  text-align: left;
+}
+
+.female-icon {
+  background-image: url("../../icons/femenine.png");
+  display: inline-block;
+  width: 20px;
+  padding: 12px;
+  vertical-align: -webkit-baseline-middle;
+  margin-right: 1px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.gender-label {
+  color: black !important;
+  margin: 0px 8px 0px 0px;
+}
+#male,
+#female {
+  vertical-align: middle;
+}
+#male {
+  margin-right: 40px;
+}
+.class-date {
+  margin-left: 35px;
+}
+#class_date {
+  width: 150px;
+  margin-right: 30px;
+}
+.class-time {
+  width: 150px;
+}
+.react-datepicker__input-container {
+  display: block;
+}
+.react-datepicker-wrapper {
+  display: block;
+}
+/* #dob {
+  height: 10px !important;
+  padding-left: 10px !important;
+  font-size: 11px !important;
+} */
+.dob-input {
+  outline: none;
+  border: 1px solid #b9b9b9;
+  border-radius: 4px;
+  width: 150px;
+  color: #75758a;
+  font-size: 12px;
+  background: #fafafa;
+}
+.date-input {
+  outline: none;
+  border: 1px solid #b9b9b9;
+  border-radius: 4px;
+  width: 165px;
+  height: 30px;
+  color: #75758a;
+  font-size: 13px;
+  background: #fafafa;
+  padding-left: 35px;
+}
+.calendar-body {
+  position: relative;
+}
+.dob-icon {
+  position: absolute;
+  background-image: url("../../icons/calendar_blue.png");
+  display: inline-block;
+  width: 14px;
+  padding: 9px;
+  vertical-align: -webkit-baseline-middle;
+  margin-right: 1px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  right: 5px;
+  bottom: 4px;
+}
+.date-icon {
+  position: absolute;
+  display: inline-block;
+  width: 30px;
+  padding: 3px 5px;
+  vertical-align: -webkit-baseline-middle;
+  margin-right: 1px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  bottom: 0px;
+  background-color: #533ceb;
+  border-radius: 4px 0 0 4px;
+  left: 0px;
+}
+.date-icon img {
+  width: 20px;
+}
+textarea {
+  resize: none;
+}
+.text-danger small {
+  font-size: 11px !important;
+}
+.text-danger {
+  margin: 0;
+  margin-top: -3px;
+}
+.time-body .date-input {
+  width: 100% !important;
+}
+.parent-welcome-txt {
+  font-size: 76px;
+  font-weight: 600;
+}
+.parent-welcome-sub-txt {
+  font-size: 38px;
+}
+.bg-img-none {
+  background-image: none !important;
+}
+.student_name_regiter::first-line{
+  text-transform: capitalize;
+}
+.student_name_regiter {
+  font: normal normal 600 23px/31px Segoe UI;
+  font-family: "Hind";
+  font-weight: 600;
+  font-size: 16px;
+  color: #03081c;
+  text-transform: lowercase;
+  line-height: 1.2;
+}
+
+.student_id_regiter {
+  color: #707070;
+  font-family: "Hind";
+  font-size: 14px;
+}
+.Btn-animate.all_child_btn{
+  width: 6rem !important;
+  margin-bottom: 0px !important;
+  padding: 4px 2px 2px 2px !important;
+  margin-right: 0px !important;
+}
+.line_h_1 {
+  line-height: 1;
+}
+.student_img_cont {
+  height: 37px;
+  width: 37px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.reg_history_visit {
+  background-color: #1100b4;
+  border-radius: 18px;
+  border: 0px solid;
+  font-size: 12px;
+  color: #ffffff;
+  padding: 8px 16px;
+}
+
+@media (min-width: 720px) {
+  .class {
+    width: 100%;
+    margin-right: 38px;
+  }
+}
+@media (max-width: 720px) {
+  .Admission-logo img {
+    display: none;
+  }
+  .Field-group-adm .Input-text {
+    height: 30px;
+  }
+  /* #dob {
+    height: 15px !important;
+    border-radius: 20px !important;
+    font-size: 12px;
+  } */
+  .Admission-form {
+    padding: 1% 8% !important;
+    margin-bottom: 20px;
+  }
+  .visitor-section .side-panel {
+    min-height: 100% !important;
+  }
+  .Admission-form .Login-fields {
+    padding-top: 25px;
+  }
+  .Admission-form .Inline-block {
+    /* width: 140px !important; */
+    margin: 0;
+  }
+  .Admission-form .Inline-block input,
+  select {
+    width: 100% !important;
+  }
+  .dob-icon {
+    right: 10px;
+  }
+  .Upload-id {
+    width: 125px !important;
+    display: block;
+  }
+  .Upload_area .Inline-block {
+    width: auto !important;
+    padding: 0 3px;
+  }
+  .Upload_area {
+    margin-top: 10px;
+  }
+  #container-circles {
+    bottom: 0 !important;
+  }
+  .App-date-time-block {
+    padding: 0 !important;
+    margin-top: -10px;
+  }
+  .appointment-div {
+    /* margin: 10px 60px !important; */
+  }
+  .Adm-btn-container {
+    margin-top: 25px !important;
+  }
+  .elm-class {
+    width: 50% !important;
+  }
+  .dob-input {
+    width: 130px !important;
+  }
+  .source {
+    width: 100% !important;
+  }
+  .date-input {
+    font-size: 10px !important;
+  }
+  .app-date {
+    margin-right: 10px !important;
+  }
+  .time-field {
+    width: 110px !important;
+  }
+}
+@media (min-width: 1680px) {
+}
+@media (min-width: 1380px) {
+  .Field-group-adm .Input-text {
+    height: 32px;
+  }
+  .Field-group {
+    margin-bottom: 5px;
+  }
+  .Field-group-adm label {
+    font-size: 11px;
+  }
+  .dob-icon {
+    bottom: 7px;
+  }
+  .Admission-form {
+    padding: 5% 17%;
+  }
+  /* #dob {
+    height: 15px !important;
+    padding-left: 10px !important;
+    font-size: 15px !important;
+  } */
+}
+.MuiInputBase-input {
+  /* padding-left: 32px !important; */
+  padding: 5px 10px !important;
+  border: 1px solid #70707080 !important;
+  background-color: #fff !important;
+  border-radius: 4px !important;
+  font-size: 13px !important;
+}
+.MuiInput-underline:before {
+  display: none !important;
+}
+.MuiInput-underline:after {
+  display: none !important;
+}
+@media (max-width: 380px) {
+  .img-box img {
+    width: 32px !important;
+    margin-right: 12px;
+  }
+  .content-box h4 {
+    font-size: 14px !important;
+  }
+}
+@media (max-width: 520px) {
+  /* .imgUploadedTxt{
+    left: 50px;
+  } */
+
+  .captureButtonCam{
+    width: 100%!important;
+    margin: 5px 0 !important;
+  }
+  .mobBotMargin{
+    margin-bottom: 4rem;
+  }
+}

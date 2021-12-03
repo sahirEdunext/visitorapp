@@ -1,0 +1,12 @@
+<svg id="outline-party_mode-24px" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Bounding_Boxes">
+    <path id="Path_3479" data-name="Path 3479" d="M0,0H32V32H0Z" fill="none"/>
+  </g>
+  <g id="Outline" transform="translate(2.667 2.667)">
+    <g id="Group_387" data-name="Group 387">
+      <path id="Path_3480" data-name="Path 3480" d="M26,4.667H21.773L19.333,2h-8L8.893,4.667H4.667A2.675,2.675,0,0,0,2,7.333v16A2.675,2.675,0,0,0,4.667,26H26a2.675,2.675,0,0,0,2.667-2.667v-16A2.675,2.675,0,0,0,26,4.667Zm0,18.667H4.667v-16h5.4l.787-.867,1.653-1.8H18.16l1.653,1.8.787.867H26Z" transform="translate(-2 -2)" fill="#1100b4"/>
+      <path id="Path_3481" data-name="Path 3481" d="M9.667,13.667a4,4,0,0,1,4-4h5.307A6.649,6.649,0,0,0,7,13.667,7.291,7.291,0,0,0,7.133,15H9.907A4.006,4.006,0,0,1,9.667,13.667Z" transform="translate(-0.333 -0.333)" fill="#1100b4"/>
+      <path id="Path_3482" data-name="Path 3482" d="M17.327,12.333a4,4,0,0,1-4,4H8.02a6.649,6.649,0,0,0,11.973-4A6.283,6.283,0,0,0,19.86,11H17.087A4.006,4.006,0,0,1,17.327,12.333Z" transform="translate(0.007 1)" fill="#1100b4"/>
+    </g>
+  </g>
+</svg>

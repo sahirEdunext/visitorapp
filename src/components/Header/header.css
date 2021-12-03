@@ -1,0 +1,53 @@
+.top-icons{
+    position: fixed;
+    right: 20px;
+    top: 15px;
+  }
+  .top-icons i {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    margin: 0px 8px;
+}
+.bell-icon{
+    background-image: url('../../icons/notification.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+  }
+  .profile-icon{
+     background-image: url('../../icons/Profile.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+  }
+  .profile-image {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+  }
+  .menu-icon{
+    background-image: url('../../icons/HamburgurButton.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .notification-count{
+    position: absolute;
+    right: 84px;
+    left: 12px;
+    top: -2px;
+    font-size: 10px;
+    color: white;
+  }
+  .MuiButton-text {
+    margin-top: -10px !important;
+  }
+  @media (max-width: 576px) {
+    .menu-icon {
+    background-image: url('../../icons/MenuButton.png');
+    }
+    .top-icons{
+      right: 0;
+    }
+   }

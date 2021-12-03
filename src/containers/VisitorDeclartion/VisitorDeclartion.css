@@ -1,0 +1,239 @@
+.Box-for-check {
+  border-radius: 12px;
+}
+table {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.decl_up_head {
+  font-size: 17px;
+  font-weight: 500;
+  font-family: 'Hind';
+}
+.decl_subHead {
+  /* font: normal normal 300 14px/28px Sofia Pro; */
+  letter-spacing: 0px;
+  color: #707070;
+  font-family: "Sofia Pro";
+  font-weight: 300;
+  font-size: 12px;
+  /* display: block; */
+}
+.decl_div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0 25px;
+  border: 1px solid #70707033;
+  border-radius: 6px;
+  background-color: #fff;
+  padding: 10px 15px;
+}
+.tick-border {
+  border: 2px solid #f4433642;
+  border-radius: 20px;
+  padding: 11px 0 2px 0;
+  margin-bottom: -25px;
+}
+.border-red {
+  border: 2px solid #f4433642;
+}
+.border-green {
+  border: 2px solid #88da88b0;
+}
+.decl_sepa {
+  border-top: 10px solid #f5f7f9;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  margin: 0 !important;
+}
+.decl_tmp {
+  border-radius: 4px;
+  border: 1px solid #4f3bec80;
+  width: 100%;
+  padding: 3px 8px;
+}
+.decl_tmp:focus,
+.decl_tmp:focus-visible {
+  border: 1px solid #4f3bec80 !important;
+  outline: none;
+}
+.lbl-txt {
+  font-size: 12px;
+  letter-spacing: 0px;
+  font-family: "Sofia Pro";
+  color: #707070;
+}
+.tick-t-body {
+  padding: 0 20px;
+  width: 8.5rem;
+}
+.padd_decl.Login-form {
+  padding: 4% 10% !important;
+}
+
+.decl_box_img {
+  width: 55px;
+  height: auto;
+  padding: 9px;
+  background: #f2f4f680;
+  border-radius: 5px;
+  margin: 4px 0px;
+}
+.no-margin {
+  margin: 0;
+}
+.temp-area {
+  display: inline-block;
+  margin-right: 30px;
+}
+.temp-area p {
+  margin: 0;
+  display: inline-block;
+}
+p.temp-text {
+  display: block;
+  font-size: 10px;
+  margin-left: -6px;
+}
+p.temp {
+  border: 1px solid #abaaaa;
+  border-radius: 2px;
+  background-color: aliceblue;
+  padding: 0px 3px;
+  text-align: right;
+  width: 75px;
+  font-size: 20px;
+  color: #b7b7b7;
+}
+p.temp input {
+  width: 67px;
+  border: 0;
+  background: transparent;
+  outline: none;
+}
+.temp-area span {
+  font-size: 20px;
+  color: gray;
+  vertical-align: baseline;
+  position: relative;
+}
+.temp-area sup {
+  font-size: 8px;
+  vertical-align: revert;
+  right: -2px;
+}
+.visitor-declaration-form .Inline-block {
+  margin: 0;
+}
+/* .checkMark{
+    display: inline-block;
+    transform: rotate(45deg);
+    height: 28px;
+    width: 15px;
+    margin-left: 60%;
+    border-bottom: 5px solid #78b13f;
+    border-right: 5px solid #78b13f;
+    } */
+
+.Label-m {
+  margin-bottom: 0px;
+}
+.cross-btn {
+  padding-left: 20px;
+}
+
+/* .Button-container{
+        margin-top: 8px 0px;
+      } */
+.tr-styling {
+  font-size: 14px;
+  font-weight: bold;
+}
+.tr-styling td {
+  padding-bottom: 15px;
+}
+svg {
+  cursor: pointer;
+}
+.visitor-declaration-form {
+  padding: 10% 15%;
+  padding-bottom: 0;
+}
+.decl_heading {
+  /* font: normal normal medium 18px/27px Hind; */
+  font-family: "Hind";
+  letter-spacing: 0px;
+  color: #3c4043;
+  font-weight: 500;
+}
+.dec-Btn-primary {
+  width: 140px !important;
+  background: #533ceb !important;
+  border: none !important;
+  border-radius: 20px !important;
+  padding: 5px !important;
+  color: white !important;
+  font-weight: 600 !important;
+  text-transform: none !important;
+  box-shadow: 0px 0px 6px 0px #533ceb;
+}
+.bi-x-circle {
+  width: 35px;
+  height: 35px;
+}
+.bi-check-circle {
+  width: 35px;
+  height: 35px;
+}
+@media (max-width: 576px) {
+  .Card-icon {
+    padding: 0;
+  }
+  .visitor-declaration-form .Button-container {
+    margin: 30px 0 !important;
+    margin-bottom: 45px !important;
+  }
+  .decl_sepa{
+    display: none;
+  }
+
+  table {
+    width: 80%;
+  }
+  .tick-border {
+    padding: 5px 0 0px 0;
+  }
+  .tick-t-body {
+    padding-right: 0px !important;
+    padding-left: 0px;
+  }
+  .mmb-1 {
+    margin-bottom: 5px !important;
+  }
+  .tr-styling td p {
+    font-size: 12px;
+  }
+  .tr-styling td img {
+    width: 50px;
+    height: 50px;
+  }
+  .tr-styling td {
+    width: 50%;
+  }
+  .bi-x-circle {
+    width: 25px;
+    height: 25px;
+  }
+  .bi-check-circle {
+    width: 25px;
+    height: 25px;
+  }
+}
+@media (min-width: 1380px) {
+  .visitor-declaration-form {
+    padding: 12% 15%;
+  }
+}
